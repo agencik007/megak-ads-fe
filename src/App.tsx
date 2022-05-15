@@ -13,7 +13,7 @@ export const App = () =>  {
                     <input type="text"/><button>Szukaj</button>
                 </div>
             </header>
-            <div className="app">
+            <div className="map">
 
             </div>
         </>

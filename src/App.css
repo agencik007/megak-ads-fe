@@ -18,4 +18,20 @@ button {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8rem;
+    padding: 1px 35px;
+    border-radius: 3px;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    width: 13rem;
+    margin-right: 5px;
+}
+
+.map {
+    background: green;
+    height: calc(100vh - 90px);
 }
