@@ -1,4 +1,4 @@
-button {
+button, .btn {
     border: 0;
     background: green;
     color: white;
@@ -6,5 +6,7 @@ button {
     font-weight: bold;
     font-size: 0.8rem;
     padding: 1px 35px;
+    line-height: 22px;
     border-radius: 3px;
+    text-decoration: none;
 }

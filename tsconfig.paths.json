@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "types": [
-        "../megak-ads-be/types"
+        "../my-app-be/types"
       ]
     }
   }
