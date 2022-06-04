@@ -14,13 +14,20 @@ export const Header = () => {
     };
 
     return (
-        <header>
-            <h1>
-                <strong>Mega</strong> Ogłoszenia
-            </h1>
+        <header className='grid-container'>
+            {/*<h1>*/}
+            {/*    <a href="http://localhost:3000"><strong>Mega</strong> Ogłoszenia</a>*/}
+            {/*</h1>*/}
+            <Btn to="/" text="Mega Ogłoszenia"/>
             <Btn to="/add" text='Dodaj ogłoszenie'/>
             <form className="search" onSubmit={setSearchFromLocalState}>
-                <input type="text" value={inputVal} onChange={e => setInputVal(e.target.value)}/><Btn text='Szukaj'/>
+                <input
+                    type="text"
+                    placeholder="Szukaj ogłoszeń..."
+                    value={inputVal}
+                    onChange={e => setInputVal(e.target.value)}
+                />
+                {/*<Btn text='Szukaj'/>*/}
             </form>
         </header>
     );

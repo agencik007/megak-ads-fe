@@ -1,6 +1,6 @@
 import React, {SyntheticEvent, useState} from 'react';
 import {Btn} from "../layout/common/Btn";
-import {geocode} from "../utlis/geocoding";
+import {geocode} from "../../utlis/geocoding";
 import {apiUrl} from "../../config/api";
 
 import './AddForm.css';
@@ -62,7 +62,7 @@ export const AddForm = () => {
     }
 
     return <form action="" className="add-form" onSubmit={saveAd}>
-        <h1>Dodawanie ogłoszenia</h1>
+        <h1 className="header-add-form">Dodawanie ogłoszenia</h1>
         <p>
             <label>
                 Nazwa: <br/>
